@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Segregação DGR</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <div class="barra-superior">
+      <h1>Tabela de segregação de Artigos perigosos</h1>
+    </div>
+    <div id="container" class="grade">
+      <div id="itens" class="itens"></div>
+      <pre>
+        <p>Arraste os itens e solte no espaço abaixo para saber se podem seguir no mesmo compartimento <br>ou precisam ser segregados.</p>
+        </pre>
+        
+          <p id="aviso"></p>
+          
+      <div class="caixa-vazia"></div>
+      <div id="limpar"><button id="botao">Limpar</button></div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/itens.js"></script>
+    <script src="js/gerarItens.js"></script>
+    <script src="js/conflitos.js"></script>
+  </body>
+
+  <footer>
+    <div class="rodape">
+      <p>
+        <a class="tabela" href="tabela.png" draggable="false" target="_blank"
+          >Tabela de classes
+        </a>
+        |
+        <a class="informacoes"
+           href="informacoes.html"
+           draggable="false"
+           target="_blank"
+           >Informações por item
+        </a>
+      </p>
+    </div>
+  </footer>
+</html>
