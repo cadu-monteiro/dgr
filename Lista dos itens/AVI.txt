@@ -1,0 +1,4 @@
+
+Estes não podem ir junto com AVI mas podem ser colocados dentro da caixa vazia e apenas exibindo uma mensagem genérica informando que eles não podem ser selecionados juntos: REX,RCL,RPB,RIS,RRY,RMD,ICE,HUM
+
+Estes podem ir junto com AVI:,RXS,RFG,RNG,RPG,RFL,RFS,RSC,RFW,ROX,ROP,RCM,FIL,EAT,HEG,AVI,LHO
