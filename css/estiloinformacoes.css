@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+h1 {
+    font-weight: bold;
+    font-family: tahoma, arial, verdana, sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+.textos {
+    background-color: rgb(255, 255, 255);
+}
+
+div {
+    display: block;
+    background-color: rgb(237, 237, 237);
+    -webkit-user-drag: element;
+    user-select: none;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16pt;
+    text-align: center;
+    line-height: 1.5;
+}
+
+p1 {
+    font-weight: bold;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.barra-superior {
+    background-size: cover;
+    height: 35px;
+    align-content: center;
+    margin-bottom: 0px;
+    -webkit-user-drag: none;
+    border: 1px solid rgb(139, 139, 139);
+    background: linear-gradient(to bottom, white, white, rgb(196, 196, 196), rgb(165, 165, 165));
+}
+
+#container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    float: left;
+}
+
+.itens {
+    max-width: 375px;
+    margin: 15px;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-top: 14px;
+    padding-bottom: 0px;
+    background-color: white;
+    -webkit-user-drag: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.452);
+}
+
+.grade {
+    -webkit-user-drag: none;
+}
+
+img {
+    width: 79px;
+    height: 90px;
+    max-width: 110%;
+    max-height: 110%;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    -webkit-user-drag: none;
+}
+
+img:hover {
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box.item {
+    margin-top: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: white;
+    -webkit-user-drag: none;
+}
+
+.box {
+    width: 65px;
+    height: 25px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 2px;
+    -webkit-user-drag: none;
+}
+
+#version {
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+}
