@@ -24,13 +24,6 @@ h1 {
 }
 
 body {
-    
-    /*background-image: url("../Azul2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 100vh;*/
     background-color: rgb(237, 237, 237);
 }
 
@@ -229,7 +222,7 @@ footer {
     left: 50%;
     transform: translate(-50%);
     width: 800px;
-    margin-top: 80px;
+    margin-top: 150px;
 }
 .tabela{
     padding: 20px;
@@ -237,6 +230,46 @@ footer {
     padding-bottom: 8px;
     border-radius: 8px;
     
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.hover-text{
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 850px;
+    background-color: rgb(40, 40, 87);
+    color: white;
+    font-family: tahoma, arial, verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+}
+.hover-image{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 785px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 8px;
+    z-index: 1;
+    animation: fadeIn 0.3s ease-in-out forwards;
+    
+}
+
+.hover-text:hover + .hover-image {
+    display:block;
 }
 
 .informacoes{

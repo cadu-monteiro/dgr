@@ -45,6 +45,9 @@ p1 {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
+    position: absolute;
+    top: 25px;
+
 }
 
 .barra-superior {
@@ -60,7 +63,8 @@ p1 {
 }
 
 #container {
-    height: 100%;
+    height: 200px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -68,14 +72,15 @@ p1 {
     margin: 0px;
     position: absolute;
     left: 50%;
-    transform: translate(-114%);
-    margin-top: 25px;
+    transform: translate(-50%);
+    margin-top: 350px;
 }
 
 .itens {
-    max-width: 375px;
+    max-width: 667px;
     margin: 15px;
-    margin-top: 3px;
+    margin-left: 15px;
+    margin-top: 61px;
     margin-bottom: 0px;
     padding: 5px;
     padding-top: 14px;
@@ -136,13 +141,13 @@ img:hover {
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 14px;
     position: relative;
-    top: -5px;
+    top: 100px;
 }
 
 .voltar {
     position: absolute;
     left: 50%;
-    margin-top: 630px;
+    margin-top: 701.5px;
     transform: translate(-50%);
     padding: 20px;
     padding-top: 8px;

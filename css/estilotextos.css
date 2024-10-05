@@ -40,14 +40,16 @@ p {
 
 #informacao-rex {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 18%;
+    transform: translate(-50%);
+    margin-top: 0px;
     
     
     
@@ -55,350 +57,349 @@ p {
 
 #informacao-rxs {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 18%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rfg {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 16%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rng {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 16%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rcl {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 15%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rpg {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 15%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rfl {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 12%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rfs {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 14%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rsc {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 15%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rfw {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 17%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rox {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 16%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rop {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 15%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rpb {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 18%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-ris {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 18%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rry {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 18%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rcm {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 16%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-rmd {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 18%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-ice {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 17%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-fil {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 18%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-hum {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 16%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-eat {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 14%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-heg {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 11%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-avi {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 18%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-lho {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 18%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
 
 #informacao-eli {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
+    top: 60px;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    transform: translate(-50%);
 }
 
 #informacao-per {
     display: none;
+    width: 900px;
     text-align: justify;
     font-family: tahoma, arial, verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
-    right: 20px;
-    position: absolute;
     left: 50%;
-    transform: translate(-11%);
-    margin-top: 30px;
+    top: 14%;
+    transform: translate(-50%);
+    margin-top: 0px;
 }
