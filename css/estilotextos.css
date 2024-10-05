@@ -1,0 +1,404 @@
+@charset "UTF-8";
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#textos {
+    margin-top: 30.5px;
+    -webkit-user-drag: none;
+}
+
+#espaco::after {
+    content: " ";
+    margin-right: 50px;
+}
+
+p {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.452);
+    width: 500px;
+    
+}
+
+#sublinhado {
+    text-decoration: underline;
+}
+
+
+#informacao-rex {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+    
+    
+    
+}
+
+#informacao-rxs {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rfg {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rng {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rcl {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rpg {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rfl {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rfs {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rsc {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rfw {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rox {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rop {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rpb {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-ris {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rry {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rcm {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-rmd {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-ice {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-fil {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-hum {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-eat {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-heg {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-avi {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-lho {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-eli {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
+
+#informacao-per {
+    display: none;
+    text-align: justify;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-11%);
+    margin-top: 30px;
+}
