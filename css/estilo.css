@@ -242,7 +242,7 @@ footer {
 .hover-text{
     cursor: pointer;
     position: absolute;
-    left: 50%;
+    left: 37%;
     transform: translate(-50%);
     top: 850px;
     background-color: rgb(40, 40, 87);
@@ -253,7 +253,7 @@ footer {
 
     
 }
-.hover-image{
+.hover-image1{
     display: none;
     position: absolute;
     top: 50px;
@@ -268,7 +268,39 @@ footer {
     
 }
 
-.hover-text:hover + .hover-image {
+.hover-text:hover + .hover-image1 {
+    display:block;
+}
+
+.hover-indice{
+    cursor: pointer;
+    position: absolute;
+    left: 59%;
+    transform: translate(-50%);
+    top: 850px;
+    background-color: rgb(40, 40, 87);
+    color: white;
+    font-family: tahoma, arial, verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px;   
+}
+
+.hover-image2{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -69.5%);
+    height: 514px;
+    width: 900px;
+    border: 1px solid black;
+    border-radius: 8px;
+    z-index: 1;
+    animation: fadeIn 0.3s ease-in-out forwards;
+    
+}
+
+.hover-indice:hover + .hover-image2 {
     display:block;
 }
 
