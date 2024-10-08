@@ -221,7 +221,7 @@ a {
 .hover-text{
     cursor: pointer;
     position: absolute;
-    top: 660px;
+    top: 95%;
     left: 50%;
     transform: translate(-140%);
     background-color: rgb(40, 40, 87);
@@ -240,7 +240,7 @@ a {
     top: 4px;
     left: 50%;
     transform: translate(-50%);
-    height: 645px;
+    height: 92%;
     width: 680px;
     border: 1px solid black;
     border-radius: 8px;
@@ -262,7 +262,7 @@ a {
 .hover-indice{
     cursor: pointer;
     position: absolute;
-    top: 660px;
+    top: 95%;
     left: 50%;
     transform: translate(-20%);
     background-color: rgb(40, 40, 87);
@@ -281,7 +281,7 @@ a {
     top: 4px;
     left: 50%;
     transform: translate(-50%);
-    height: 645px;
+    height: 92%;
     width: 680px;
     border: 1px solid black;
     border-radius: 8px;
