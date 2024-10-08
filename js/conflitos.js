@@ -7,7 +7,7 @@ function verificaSeTemItensQueNaoPodemFicarJuntos() {
         for (let index in item.listaNegra) {
             var itemExistente = caixa.querySelector(`img[id=${item.listaNegra[index]}]`)
             if (itemExistente) {
-                //aviso +="(" + itemCaixa.id + ") e (" + item.listaNegra[index] + ") não podem seguir juntos" + "\n"
+                aviso ="Os itens em Vermelho não podem seguir juntos" + "\n"
                 itemExistente.className = "bordaVermelha"
                 
             }
