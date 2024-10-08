@@ -144,7 +144,7 @@ img:hover {
 
 .bordaVermelha {
     border-radius: 5px;
-    border: 2px solid red;
+    border: 3px solid red;
     
     
 }
@@ -152,7 +152,7 @@ img:hover {
 .bordaVermelha:hover {
     
     border-radius: 5px;
-    border: 2px solid red;
+    border: 3px solid red;
     box-shadow: 1px 1px 4px red;
     
     
