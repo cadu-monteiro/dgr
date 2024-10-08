@@ -1,26 +1,30 @@
 .linha1{
     position: absolute;
-    top: 50%;
+    top: 320px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     background-color: rgb(2, 0, 131);
     padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
     color: white;
 }
 .linha2{
     position: absolute;
-    top: 60%;
+    top: 400px;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%);
     background-color: rgb(2, 0, 131);
     padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
     color: white;
 }
 .voltar {
     position: absolute;
-    top: 82.3%;
+    top: 610px;
     left: 50%;
     transform: translate(-50%);
     padding: 20px;
