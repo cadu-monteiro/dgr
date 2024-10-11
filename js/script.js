@@ -9,7 +9,6 @@ caixa.addEventListener('drop', async (event) => {
     const imagemExiste = caixa.querySelector(`img[src="${imagemSrc}"]`);
     if (!imagemExiste) addImagemNaCaixa(imagemSrc);
     verificaSeTemItensQueNaoPodemFicarJuntos()
-
 });
 
 function dragStart(imagem) {
@@ -24,6 +23,11 @@ function dragStart(imagem) {
 }
 
 function addImagemNaCaixa(imagemSrc) {
+    const itensCaixa = caixa.querySelectorAll('img');
+    if (itensCaixa.length >= 5) {
+        alert('A caixa não pode conter mais de 5 itens.');
+        return;
+    }
     const imagem = document.createElement('img');
     imagem.src = imagemSrc;
     imagem.id = pegarIdDaImagemSrc(imagemSrc);
