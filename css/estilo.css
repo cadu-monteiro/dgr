@@ -142,11 +142,21 @@ img:hover {
     margin-bottom: 10px;
 }
 
+.bordaVerde {
+    border-radius: 5px;
+    border: 2.5px solid rgb(12, 143, 0);
+}
+
 .bordaVermelha {
     border-radius: 5px;
     border: 2.5px solid red;
+}
+
+.bordaVerde:hover {
     
-    
+    border-radius: 5px;
+    border: 2.5px solid rgb(12, 143, 0);
+    box-shadow: 1px 1px 4px rgb(12, 143, 0);
 }
 
 .bordaVermelha:hover {
@@ -154,9 +164,6 @@ img:hover {
     border-radius: 5px;
     border: 2.5px solid red;
     box-shadow: 1px 1px 4px red;
-    
-    
-    
 }
 
 
