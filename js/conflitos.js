@@ -1,28 +1,38 @@
 function verificaSeTemItensQueNaoPodemFicarJuntos() {
     let itensCaixa = caixa.querySelectorAll("img");
-    zeraConflitos(itensCaixa)
-    let aviso = "";
+    zeraConflitos(itensCaixa);
+    let aviso = "Itens em Verde podem seguir juntos\n";
+    let corAviso = "green";
+    let encontrouConflito = false;
+    
     itensCaixa.forEach(itemCaixa => {
-        var item = json.find(element => element.nome == itemCaixa.id)
-        for (let index in item.listaNegra) {
-            var itemExistente = caixa.querySelector(`img[id=${item.listaNegra[index]}]`)
-            if (itemExistente) {
-                aviso ="Os itens em Vermelho não podem seguir juntos" + "\n"
-                itemExistente.className = "bordaVermelha"
-                
-            }
-            
-            
-            
-                
+        const item = json.find(element => element.nome === itemCaixa.id);
+        
+        if (item && item.listaNegra) {
+            item.listaNegra.forEach(nomeNegra => {
+                const itemExistente = caixa.querySelector(`img[id=${nomeNegra}]`);
+                if (itemExistente) {
+                    encontrouConflito = true;
+                    aviso = "Itens em Vermelho não podem seguir juntos\n";
+                    itemExistente.classList.add("bordaVermelha");
+                    itemCaixa.classList.remove("bordaVerde");
+                    corAviso = "red";
+                }
+            });
         }
     });
-    document.getElementById("aviso").innerText = aviso
-}
 
+    const avisoElemento = document.getElementById("aviso");
+    avisoElemento.innerText = aviso;
+    avisoElemento.style.color = corAviso;
+}
 
 function zeraConflitos(itensCaixa) {
     itensCaixa.forEach(item => {
-        caixa.querySelector(`img[id=${item.id}]`).className = "Podem ir juntos"
-    })
+        const elemento = caixa.querySelector(`img[id=${item.id}]`);
+        if (elemento) {
+            elemento.classList.remove("bordaVermelha");
+            elemento.classList.add("bordaVerde");
+        }
+    });
 }
