@@ -1,7 +1,7 @@
 function verificaSeTemItensQueNaoPodemFicarJuntos() {
     let itensCaixa = caixa.querySelectorAll("img");
     zeraConflitos(itensCaixa);
-    let aviso = "Itens em Verde podem seguir juntos\n";
+    let aviso = "Itens em Verde podem seguir no mesmo porão.\n";
     let corAviso = "green";
     let encontrouConflito = false;
     
@@ -13,7 +13,7 @@ function verificaSeTemItensQueNaoPodemFicarJuntos() {
                 const itemExistente = caixa.querySelector(`img[id=${nomeNegra}]`);
                 if (itemExistente) {
                     encontrouConflito = true;
-                    aviso = "Itens em Vermelho não podem seguir juntos\n";
+                    aviso = "Itens em Vermelho não podem seguir no mesmo porão.\n";
                     itemExistente.classList.add("bordaVermelha");
                     itemCaixa.classList.remove("bordaVerde");
                     corAviso = "red";
