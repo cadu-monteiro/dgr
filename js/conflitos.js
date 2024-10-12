@@ -1,7 +1,7 @@
 function verificaSeTemItensQueNaoPodemFicarJuntos() {
     let itensCaixa = caixa.querySelectorAll("img");
     zeraConflitos(itensCaixa);
-    let aviso = "Itens em Verde podem seguir juntos no porão\n";
+    let aviso = "Itens em Verde podem seguir juntos\n";
     let corAviso = "green";
     let encontrouConflito = false;
     
